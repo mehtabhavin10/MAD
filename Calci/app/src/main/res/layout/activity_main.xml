@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter nunmber 1"
+        android:id="@+id/num1">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter nunmber 2"
+        android:id="@+id/num2"
+        android:layout_below="@+id/number1">
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/number2"
+        android:id="@+id/add">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUB"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/add"
+        android:id="@+id/sub">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUL"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/sub"
+        android:id="@+id/mul">
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIV"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/mul"
+        android:id="@+id/div">
+
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        android:layout_below="@+id/div"
+        android:layout_margin="10dp">
+
+    </TextView>
+
+
+</RelativeLayout>
